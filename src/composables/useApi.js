@@ -2,7 +2,8 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://api.magicthegathering.io/v1/',
+  baseURL:
+    "http://lookup-service-prod.mlb.com/json/named.roster_team_alltime.bam?start_season='2022'&end_season='2022'&team_id='121',",
 })
 
 const useApi = () => {
